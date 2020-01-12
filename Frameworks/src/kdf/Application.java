@@ -14,6 +14,7 @@ public class Application {
 	public void invalidLoginTest() throws IOException {
 		String[][] data = GenericMethods.getData("D:\\SelDec14\\TestData.xlsx", "Sheet2");
 		for(int i = 1;i<data.length;i++) {
+			//Making changes to Application Class
 			switch(data[i][3]) {
 			case "openBrowser":
 				Methods.openBrowser();
